@@ -53,7 +53,7 @@ if Config.ENABLE_ASSISTANTBOT == "ENABLE":
     sed.info("Friday And Assistant Bot Have Been Installed Successfully !")
 else:
     sed.info("Friday Has Been Installed Sucessfully !")
-    sed.info("You Can Visit @FridayOT For Any Support Or Doubts")
+    sed.info("You Can Visit @Tech_Wizard_Ent For Any Support Or Doubts")
 
 if len(argv) not in (1, 3, 4):
     bot.disconnect()
