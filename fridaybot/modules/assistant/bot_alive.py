@@ -16,7 +16,7 @@ from fridaybot import ALIVE_NAME
 from fridaybot.modules import currentversion
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Unknown"
-PM_IMG = "https://telegra.ph/file/22535f8051a58af113586.jpg"
+PM_IMG = "https://telegra.ph/file/ec9265ba6a41c2a48c572.png"
 pm_caption = "➥ **ASSISTANT IS:** `ONLINE`\n\n"
 pm_caption += "➥ **SYSTEMS STATS**\n"
 pm_caption += "➥ **Telethon Version:** `1.15.0` \n"
@@ -27,8 +27,8 @@ pm_caption += f"➥ **Version** : `{currentversion}`\n"
 pm_caption += f"➥ **My Boss** : {DEFAULTUSER} \n"
 pm_caption += "➥ **Heroku Database** : `AWS - Working Properly`\n\n"
 pm_caption += "➥ **License** : [GNU General Public License v3.0](github.com/StarkGang/FridayUserbot/blob/master/LICENSE)\n"
-pm_caption += "➥ **Copyright** : By [StarkGang@Github](GitHub.com/StarkGang)\n"
-pm_caption += "[Assistant By Friday 🇮🇳](https://telegra.ph/FRIDAY-06-15)"
+pm_caption += "➥ **Copyright** : By [🎭 Kavi_Ya 🎭](GitHub.com/kaviya-admin)\n"
+pm_caption += "[Assistant By Kaveesha Induwara](https://t.me/Kaveesha_Induwara)"
 
 # only Owner Can Use it
 @assistant_cmd("alive", is_args=False)
