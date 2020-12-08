@@ -52,7 +52,7 @@ async def _(event):
                 f"**My Master Seems To Be Too Busy 👀.** \n__He Going Afk Because Of__ `{reason}`",
             )
         else:
-            await borg.send_message(event.chat_id, f"**I Am Busy And I Am Going Afk**.")
+            await borg.send_message(event.chat_id, f"මම දැන් පොඩ්ඩක් Busy.. ඒක නිසා ටිකකට ඔන්ලයින් නෑ **.")
         await asyncio.sleep(5)
         await event.delete()
         try:
@@ -79,7 +79,7 @@ async def set_not_afk(event):
     if ".afk" not in current_message and "yes" in USER_AFK:  # pylint:disable=E0602
         shite = await borg.send_message(
             event.chat_id,
-            "__Pro is Back Alive__\n**No Longer afk.**\n `I Was afk for:``"
+            "__Kavi_Ya is Back Alive__\n**No Longer Offline.**\n `I Was Offline for:``"
             + total_afk_time
             + "`",
         )
@@ -157,10 +157,10 @@ async def on_afk(event):
                 f"`{int(seconds)}s` **ago**"
         msg = None
         message_to_reply = (
-            f"**My Boss is Afk**  \n**AFKT** : `{total_afk_time}`\n**Reason** : `{reason}`"
-            + f"\n\nHe Will Reply To You Soon!"
+            f"**මම දැන් පොඩ්ඩක් Busy.. ඒක නිසා ටිකකට ඔන්ලයින් නෑ **  \n**ඕෆ්ලයින් ගිය කාලය** : `{total_afk_time}`\n**හේතුව** : `{reason}`"
+            + f"\n\nමම ඉක්මනටම ආපහු එන්නම්!"
             if reason
-            else f"**My Master is Afk**\n AFK : `{total_afk_time}` He Will Comeback Soon"
+            else f"**My Master is Offline**\n AFK : `{total_afk_time}` He Will Comeback Soon"
         )
         msg = await event.reply(message_to_reply)
         await asyncio.sleep(5)
