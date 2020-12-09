@@ -14,3 +14,27 @@
 
 # මේක Clone කරන්න එපෝ
 
+
+
+
+
+
+
+# This Method Is For Me...Not to You
+
+
+# Deploying To Heroku
+
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/StarkGang/FridayUserbot)
+
+
+
+
+
+
+
+
+# String Session
+## Repl
+
+[![Run on Repl.it](https://repl.it/badge/github/STARKGANG/friday)](https://friday.midhunkm1294.repl.run)
